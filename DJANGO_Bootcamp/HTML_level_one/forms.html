@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Forms Basics</title>
+    </head>
+
+    <body>
+        <h1>Course Sign Up Page</h1>
+        <p>Please Note: First Name, Last Name, Password, and Email are required</p>
+        <form action="https://www.udemy.com/">
+            <label for="firstName">First Name:</label>
+            <input id="firstName" type="text" placeholder="First Name" required>
+            <label for="lastName">Last Name:</label>
+            <input id="lastName" type="text" placeholder="Last Name" required>
+
+            <p></p>
+            <label for="email">Email:</label>
+            <input id="email" type="text" placeholder="user@gmail.com" required>
+            <label for="password">Password:</label>
+            <input id="password" type="password" required>
+
+            <p>Are you over the age of 18?</p>
+            <label for="over18">Yes</label>
+            <input id="over18" type="radio" name="age" value="over18">
+
+            <label for="under18">No</label>
+            <input id="under18" type="radio" name="age" value="under18">
+
+            <p>Do you have a credit card or PayPal?</p>
+            <select name="paymentType">
+                <option value="card">Credit Card</option>
+                <option value="paypal">PayPal</option>
+            </select>
+
+            <p></p>
+            <input type="submit" value="Sign Up">
+        </form>
+    </body>
+</html>
