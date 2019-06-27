@@ -1,0 +1,34 @@
+h1 {
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+td {
+    height: 300px;
+    width: 150px;
+    border: 6px solid white;
+}
+
+.art {
+    margin: auto;
+}
+
+#first_panel {
+    background-color: #D8E2DC;
+}
+
+#second_panel {
+    background-color: #FFE5D9;
+}
+
+#third_panel {
+    background-color: #FFCAD4;
+}
+
+#fourth_panel {
+    background-color: #F4ACB7;
+}
+
+#fifth_panel {
+    background-color: #9D8189;
+}

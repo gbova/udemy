@@ -1,0 +1,26 @@
+/*
+Not all fonts are available on all Operating Systems
+Websites that can help you choose appropriate fonts:
+  https://en.wikipedia.org/wiki/List_of_typefaces_included_with_macOS
+  https://en.wikipedia.org/wiki/List_of_typefaces_included_with_Microsoft_Windows
+  https://www.cssfontstack.com/
+Or you can download and provide your own font
+https://fonts.google.com/
+https://fontlibrary.org/ (for fonts that may not be free)
+  You can provide the font file locally
+  Or you can link to the font file that's online
+*/
+
+h1 {
+    font-family:"Arial";
+    text-align: center;
+}
+
+p {
+    font-family: 'Barrio', cursive;
+}
+
+
+/*
+EM values is a dynamic ways of sizing things
+If you haven't set the font size anywhere, the default is 6px */
