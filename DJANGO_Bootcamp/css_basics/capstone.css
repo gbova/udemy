@@ -2,14 +2,13 @@ body {
     font-family: 'Poppins', sans-serif;
     color: white;
     text-align: center;
-    background-color: #011627;
+    background-color: rgb(1, 22, 39);
     border: 60px solid #2EC4B6;
     border-top: 0;  /* Get rid of any top border */
     margin: 0px;  /* Extended the border all the way to the edges of the page  */
 }
 
 p {
-    /*color: #FDFFFC;*/
     padding-top: 5%;
     padding-left: 20%;
     padding-right: 20%;
